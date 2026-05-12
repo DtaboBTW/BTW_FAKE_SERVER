@@ -2,8 +2,9 @@
   "is_enabled": true,
   "reason_code": null,
   "package": {
-  "id": "dev-pkg-001",
-  "type": "STANDARD",
-  "country": "CO",
-  "extra_consumption": false
+    "id": "dev-pkg-001",
+    "type": "STANDARD",
+    "country": "CO",
+    "extra_consumption": false
+  }
 }
