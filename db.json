@@ -1,12 +1,74 @@
 {
-  "response": {
-    "is_enabled": true,
-    "reason_code": null,
-    "package": {
-      "id": "dev-pkg-001",
-      "type": "STANDARD",
-      "country": "CO",
-      "extra_consumption": false
+  "response": [
+    {
+      "is_enabled": true,
+      "reason_code": "AVAILABLE",
+      "package": {
+        "id": "dev-pkg-001",
+        "type": "STANDARD",
+        "country": "CO",
+        "extra_consumption": false
+      }
+    },
+    {
+      "is_enabled": false,
+      "reason_code": "QUOTA_EXCEEDED",
+      "package": {
+        "id": "dev-pkg-002",
+        "type": "STANDARD",
+        "country": "CO",
+        "extra_consumption": false
+      }
+    },
+    {
+      "is_enabled": false,
+      "reason_code": "PACKAGE_EXPIRED",
+      "package": {
+        "id": "dev-pkg-003",
+        "type": "STANDARD",
+        "country": "CO",
+        "extra_consumption": false
+      }
+    },
+    {
+      "is_enabled": false,
+      "reason_code": "PACKAGE_NOT_FOUND",
+      "package": {
+        "id": "dev-pkg-004",
+        "type": "STANDARD",
+        "country": "CO",
+        "extra_consumption": false
+      }
+    },
+    {
+      "is_enabled": true,
+      "reason_code": "QUOTA_EXCEEDED",
+      "package": {
+        "id": "dev-pkg-005",
+        "type": "STANDARD",
+        "country": "CO",
+        "extra_consumption": true
+      }
+    },
+    {
+      "is_enabled": false,
+      "reason_code": "CLIENT_BLOCKED",
+      "package": {
+        "id": "dev-pkg-006",
+        "type": "STANDARD",
+        "country": "CO",
+        "extra_consumption": false
+      }
+    },
+    {
+      "is_enabled": false,
+      "reason_code": "CLIENT_NOT_FOUND",
+      "package": {
+        "id": "dev-pkg-007",
+        "type": "STANDARD",
+        "country": "CO",
+        "extra_consumption": false
+      }
     }
-  }
+  ]
 }
