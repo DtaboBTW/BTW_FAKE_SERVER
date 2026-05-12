@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/validate"
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "is_enabled": true,
+      "reason_code": null,
+      "package": {
+        "id": "dev-pkg-001",
+        "type": "STANDARD",
+        "country": "CO",
+        "extra_consumption": false
+      }
+    }
+  }
+}
